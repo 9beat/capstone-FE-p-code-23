@@ -74,4 +74,4 @@ This repository contains the front-end part of the capstone solo project of the 
 
 📮 Please feel free to ask any questions. 💬
 
-💌[matteoforni.developer@proton.me](mailto:matteoforni.developer@proton.me)📧
+💌[novebeat@proton.me](mailto:novebeat@proton.me)📧
