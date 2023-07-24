@@ -59,7 +59,7 @@ This repository contains the front-end part of the capstone solo project of the 
 
 #### [SERVER LINK](https://9beat.github.io/capstone-E-p-code-23/)
 
-#### [CLIENT LINK](https://9beat.github.io/capstone-FE-p-code-23/)
+#### [CLIENT LINK](https://github.com/9beat/capstone-FE-p-code-23)
 
 ```then run commands below```
 
