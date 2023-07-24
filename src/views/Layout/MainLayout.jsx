@@ -6,7 +6,7 @@ export default function MainLayout({children}) {
     return (
         <>
             <Navbar />
-            {children}
+                {children}
             <ScrollToTopBtn />
         </>
     )
