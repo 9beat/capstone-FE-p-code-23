@@ -57,7 +57,7 @@ This repository contains the front-end part of the capstone solo project of the 
 
 ```Clone both repositories (backend and frontend)```
 
-#### [SERVER LINK](https://9beat.github.io/capstone-E-p-code-23/)
+#### [SERVER LINK](https://github.com/9beat/capstone-BE-p-code-23)
 
 #### [CLIENT LINK](https://github.com/9beat/capstone-FE-p-code-23)
 
