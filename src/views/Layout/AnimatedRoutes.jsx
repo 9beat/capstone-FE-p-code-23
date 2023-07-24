@@ -9,6 +9,7 @@ import Profile from "../Profile/Profile.jsx";
 import ErrorPage from '../ErrorPage/ErrorPage.jsx';
 // Framer
 import { AnimatePresence } from "framer-motion";
+// import ProtectedRoutes from '../../middleware/ProtectedRoutes.jsx';
 
 const AnimatedRoutes = () => {
     const location = useLocation()
@@ -19,9 +20,11 @@ const AnimatedRoutes = () => {
     return (
         <AnimatePresence>
             <Routes location={location} key={location.pathname}>
-                <Route path="/" element={ <Login /> } />
-                <Route path="/home" element={ isAuth ? <Home /> : <Navigate to="/" /> } />
-                <Route path="/profile/:userId" element={ isAuth ? <Profile /> : <Navigate to="/" /> } />
+                <Route exact path="/" element={ <Login /> } />
+                {/* <Route element={ <ProtectedRoutes /> }> */}
+                    <Route path="/home" element={ isAuth ? <Home /> : <Navigate to="/" /> } />
+                    <Route path="/profile/:userId" element={ isAuth ? <Profile /> : <Navigate to="/" /> } />
+                {/* </Route> */}
                 <Route path="*" element={ <ErrorPage  /> } />
             </Routes>
         </AnimatePresence>
