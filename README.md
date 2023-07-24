@@ -1,8 +1,10 @@
-# GeekHub - Capstone Project🌍📲👍🍪🔧🚀
+# GeekHub - Capstone Project🌍📲🎹🍪🔧🚀
 
-🌱This is the social scaffolding of a larger project currently under development: a social platform for digital arts and music lovers.🌱
+🌱 This is the 🎭social scaffolding of a larger project currently 🚧under development: a social platform for digital 🎨arts and 🎻music lovers. 🌱
 
-## MAIN LANGUAGES, FRAMEWORKS, LIBRARIES AND DEPENDENCIES: 💻JavaScript ☁️MongoDB ⚡ExpressJS 💥ReactJS 💫NodeJS 〽️Redux 🔷MUI
+## MAIN LANGUAGES, FRAMEWORKS, LIBRARIES AND DEPENDENCIES
+
+💻JavaScript ☁️MongoDB ⚡ExpressJS 💥ReactJS 💫NodeJS 〽️Redux 🔷MUI
 
 ## Description
 
@@ -10,22 +12,20 @@ This repository contains the front-end part of the capstone solo project of the 
 
 ## Actual features
 
-- Main views: 🔑 authentication, 🏠 home page,  personal wall, friends profiles.
+- Main views: 🔑 authentication, 🏠 home page,  🎂personal wall, friends profiles.
   - Authentication:
-    - Registered users can login, otherwise they can register with 🔒 secure JWT token cryptography. 
+    - Registered users can 🔓login, otherwise they can 🔏register with secure ⚠️JWT token cryptography.
   - Homepage:
     - Navigation bar with 🌛dark/light🌞 theme mode switch, settings, logout button.
-    - User widget with general info and personal social media links.
-    - Posts creation widget, where users can upload pictures and other files.
-    - Users can like/unlike posts.
-    - Users can add/remove friends.
-    - Friends list section.
-    - Comments section.
-    - Suggestions.
-  - Profile wall and other users profiles:
-    - User widget with general info and personal social media links.
-    - Posts creation widget, where users can upload pictures and other files.
-    - Users can add/remove friends.
+    - User widget with 🚩general info and personal 🍒social media links.
+    - Posts ⛳creation widget, where users can 📂upload 🥃pictures and 📷other files.
+    - Users can 👍like/👎unlike posts.
+    - Users can ➕add/➖remove friends.
+    - 👯Friends list section.
+    - 💬Comments section.
+    - 🍬Suggestions.
+  - Profile wall and other users profiles
+    - Pretty the same things 🙉🙈🙊
 
 ### OTHER DEPENDENCIES
 
