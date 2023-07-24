@@ -29,17 +29,19 @@ export default function Home() {
 
     return (
             <MainLayout>
-            <motion.div 
-                initial={{ opacity: 0 }}  
-                animate={{ opacity: 1 }} 
-                exit={{ opacity: 0, transition: { duration: .6 }}}
-            >
-                <Box 
-                    display={ wideScreen ? "flex" : "block"} 
-                    width="100%" 
-                    height="30vh" 
-                    gap="2rem"  
-                    padding="2rem 3rem" justifyContent="space-between"
+
+                <motion.div                        
+                    initial={{ opacity: 0 }}  
+                    animate={{ opacity: 1 }} 
+                    exit={{ opacity: 0, transition: { duration: 0.3 }}}  
+                    
+                    style={{
+                        width: "100%", 
+                        display: wideScreen ? "flex" : "block", 
+                        gap: "2rem", 
+                        padding: "2rem 3rem", 
+                        justifyContent: "center"
+                    }}
                 >
                     <Box flexBasis={ wideScreen ? "26%" : undefined}>
                         <UserCard userId={_id} picturePath={picturePath} />
@@ -60,9 +62,7 @@ export default function Home() {
                         </Box>
                     )}
 
-                </Box>
-                
-            </motion.div>
+                </motion.div>
             </MainLayout>
     )
 }

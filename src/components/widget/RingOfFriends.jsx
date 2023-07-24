@@ -50,7 +50,8 @@ const RingOfFriends = ({ _id, userId, friendId }) => {
             <Box gap="1.5rem">
                 { Object.values(friends).map((friend) => (
                     <FriendStripe 
-                        key={friend._id} friendId={friend._id} 
+                        key={friend._id} 
+                        friendId={friend._id} 
                         name={`${friend.firstName} ${friend.lastName}`}
                         subtitle={friend.occupation}
                         userPicturePath={friend.picturePath}

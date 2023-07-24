@@ -27,6 +27,9 @@ const ProtectedRoutes = () => {
     const isAuth = useAuth()
     const session = useSession()
 
+    // if (!isAuth) {
+    //     return navigate('/login')
+    // }
     return isAuth ? <Outlet /> : <Login />
 }
 
