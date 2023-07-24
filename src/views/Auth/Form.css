@@ -1,0 +1,82 @@
+:root {
+    --bg-linear: linear-gradient(109.6deg, rgb(128, 144, 233) 17.4%, rgb(171, 88, 238) 52.4%, rgb(255, 129, 246) 91%);
+}
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+
+.spinner {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40px;
+  height: 40px;
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid hsl(280, 100%, 50%);
+  border-radius: 50%;
+  animation: spin 1s ease infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+
+
+form {
+  /* CSS rules for the form */
+
+}
+
+/* form box {
+    display: grid;
+    gap: 1.8rem;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+} */
+
+form box > div {
+  /* CSS rules for the child divs of the box */
+}
+
+form box > div:first-child {
+  /* CSS rules for the first child div of the box */
+}
+
+form box > div:last-child {
+  /* CSS rules for the last child div of the box */
+}
+
+formik {
+    
+}
+
+formik form {
+    text-align: center; 
+    cursor: pointer; 
+
+}
+
+/* formik form box {
+    display: grid; 
+    grid-gap: 1.8rem; 
+    gridTemplateColumns: repeat(4, minmax(0, 1fr)); 
+
+
+} */
+
+formik form box textfield {
+
+}
+
