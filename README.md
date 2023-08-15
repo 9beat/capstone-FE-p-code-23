@@ -1,4 +1,4 @@
-# GeekHub - Capstone Project🌍📲🎹🍪🔧🚀
+# FreakHub - Capstone Project🌍📲🎹🍪🔧🚀
 
 🌱 This is the 🎭social scaffolding of a larger project currently 🚧under development: a social platform for digital 🎨arts and 🎻music lovers. 🌱
 
